@@ -1,0 +1,138 @@
+*{margin: 0;padding: 0;}
+body{font-family: sans-serif;background-color: #888;-webkit-font-smoothing: antialiased;}
+#nav-bar{position: sticky;top: 0;z-index: 10;}
+.navbar{color: white; background: linear-gradient(to right, #e74999,#7289da);padding: 0 !important;}
+/* Logo resize */
+.navbar-brand img{height: 4rem;padding-left: 3rem;}
+.navbar-nav{margin-right: 3rem;}
+.navbar-nav li{padding: 0 1rem;}
+.navbar-nav li{padding: 0 1rem;}
+.navbar-nav .nav-item .nav-link{color: #fff !important; font-weight: 600; float: right; text-align: left;}
+.navbar-nav .nav-item .nav-link:hover{color: #000!important;}
+.fa-bars{color: #fff !important; font-size: 25px !important;}
+.navbar-toggler{outline: none !important;}
+/* --------- Banner ---------- */
+.banner{background: linear-gradient(to right, #e74999,#7289da);color: #fff; padding-top: 5%;}
+.promo-title{
+  font-family: 'Amatic SC', cursive; 
+  font-size: 8rem; 
+  font-weight: 600; 
+  margin-top: 0.5em;
+  text-align: center;
+}
+.join-title{
+  font-size: 1.44rem;
+  text-align: center;
+}
+.link-play{text-decoration: none;}
+.link-play:hover{color: #7289da;text-decoration: none!important;}
+.play-btn{width: 45px;margin: 20px 0;margin-right: 2em;text-decoration: none !important;transition: transform 1.2s;}
+.play-btn:hover{color: #444;text-decoration: none!important;transform: scale(1.2);}
+.banner a{color: #fff; text-decoration: none!important;}
+.img-fluid{margin-top: 4rem;}
+.bottom-img{width: 100%;}
+.banner .btn-primary{
+  box-shadow: none !important;
+  width: 100%;
+  height: 50px;
+  margin:3%;
+  border: none; border-radius: 50px;
+  background-color: #7289da;
+  font-weight: bold;
+  color: #fff;transition: transform 1.2s;
+}
+.banner .btn-primary:hover{
+  transform: scale(1.2); 
+  color: #fff;
+  background-color: #7289da;
+}
+.banner .btn-secondary{
+  box-shadow: none !important;
+  width: 100%;
+  height: 50px;
+  margin:3%;
+  border: none; border-radius: 50px;
+  background-color: #312653;
+  font-weight: bold;
+  color: #fff;transition: transform 1.2s;
+}
+.banner .btn-secondary:hover{
+  transform: scale(1.2); 
+  color: #fff;
+  background-color: #312653;
+}
+/* ---------- Features --------- */
+#features{padding: 50px 0;}
+.feature-img{font-size: 4em; margin-top: 2rem; color:#312653;}
+.features{padding: 20px;}
+.features h4{padding: 1em; margin-top: 5px; text-transform: uppercase;}
+.title::after{
+  content: '';
+  background: linear-gradient(to right, #e74999,#7289da);
+  height: 8px;
+  width: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border: none; border-radius: 50px;
+  transform: translateY(23px);}
+#features .btn-primary{
+  box-shadow: none;
+  padding: 8px 25px;
+  border: none; border-radius: 50px;
+  background: linear-gradient(to right, #e74999,#7289da);
+  transition: transform 1.2s;
+}
+#features .btn-primary:hover{transform: scale(1.2);}
+/* -----------  Setup -------------*/
+#setup{background-color: #f8f9fa; padding-bottom: 3rem; padding-top: 3rem;}
+.setup-title{font-size: 1.6em; margin-top: 8%; font-weight: 600;}
+#setup ul li{margin: 10px 0;}
+#setup ul{margin-left: 20px;}
+#setup .btn-primary{
+  box-shadow: none !important;
+  width: 80%;
+  height:50px;
+  margin:10%;
+  border: none; border-radius: 50px;
+  background-color: #7289da;
+  font-weight: bold;
+  color: #fff;transition: transform 1.2s;
+}
+#setup .btn-primary:hover{
+  transform: scale(1.2); 
+  color: #fff;
+  background-color: #7289da;
+}
+.setup-img{
+  font-size: 1em;
+  color:#e74999;
+}
+#setup kbd {
+  margin-left:5%;
+  text-align: center;
+  color:#e74999;
+  background-color: transparent;
+}
+#setup .row {
+  margin: 0 12%;
+}
+.customTooltip {
+  background: linear-gradient(to right, #e74999,#7289da);
+  padding: 7px 17px;
+  margin-left: 5px;
+  font-size: 0.8em;
+  color: white;
+  border: none; border-radius: 50px;
+}
+/* ----- Footer ------*/
+#footer{
+  text-align: center;
+  background: linear-gradient(to right, #e74999,#7289da); 
+  color: #fff;
+}
+.footer-box{padding: 20px;}
+#footer a:link {
+  text-decoration: none;
+  color:white;
+}

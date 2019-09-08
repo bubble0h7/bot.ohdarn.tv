@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Oh Darn Bot </title>
+    <meta name="description" content="General purpose Discord Bot">
+    <link rel="canonical" href="https://bot.ohdarn.tv">
+    <meta property="og:url" content="https://bot.ohdarn.tv">
+    <link href="font-awesome/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="images/Discord-Logo-White.png">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Navbar Menu  ---->
+    <section id="nav-bar">
+      <nav class="navbar navbar-expand-lg navbar-light">
+         <a class="navbar-brand" href="#">
+           <img src="images/Velkoz1_transparent.png" alt="Oh Darn">
+         </a>
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+           <i class="fa fa-bars"></i>
+         </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#top">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#features">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#setup">Getting Started</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#footer">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" onmouseover="toggleGithubIcon()" onmouseout="toggleGithubIcon()" href="https://github.com/bubble0h7/OhDarnBot" target="_blank"><img id="github-icon" src="images/GitHub-Mark-Light-32px.png" alt="Github" height="26px"></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </section>
+    <!--- Banner Hero section ------->
+    <section class="banner">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <p class="promo-title">OH DARN BOT</p>                
+            <p class="join-title">An open source general purpose Discord bot</p>
+            <a href="https://discordapp.com/oauth2/authorize?client_id=493353332602044416&permissions=8&scope=bot" target="_blank">               
+              <button type="button" class="btn btn-primary discord-invite" name="button"><img src="images/Discord-Logo-White.png" height="40px" alt="Discord Logo">Add to Discord</button>
+            </a>
+            <a  href="#features"> 
+              <button type="button"class="btn btn-secondary" name="button">View Features</button>
+            </a>
+            </div>
+            <div class="col-md-6">
+              <img id="velkoz-image" onmouseover="toggleVelkozGif()" onmouseout="toggleVelkozGif()" src="images/Velkoz1_transparent.png" alt="Vel'koz" class="img-fluid">
+            </div>
+        </div>
+      </div>
+        <!--- Background wave Hero ---->
+        <img src="images/ground@-min.png" class="bottom-img" alt="">
+    </section>
+
+    <!--- features ---->
+    <section id="features">
+      <div class="container text-center">
+        <h3 class="title text-center">FEATURES</h3>
+        <div class="row text-center">
+          <div class="col-md-4 features">
+            <i class="fas fa-user-tag feature-img"></i>
+            <h4>Default Auto-Role</h4>
+            <p>Set your own custom default server role and let Oh Darn Bot handle
+               assigning it to new members.
+            </p>
+          </div>
+          <div class="col-md-4 features">
+            <i class="fab fa-twitch feature-img"></i>
+            <h4>Currently Streaming</h4>
+            <p>Automatically assigns users a role when they go live, and removes it when they stop.
+               Great for supporting and promoting your server's streamers.
+            </p>
+          </div>
+          <div class="col-md-4 features">
+            <i class="fas fa-random feature-img"></i>
+            <h4>Random Generators</h4>
+            <p>Emulate rolling dice or let fate decide your next champion to play in League of Legends.
+            </p>
+          </div>
+          <div class="col-md-4 features">
+            <i class="fas fa-user-shield feature-img"></i>
+            <h4>Moderating Tools</h4>
+            <p>Designed to make moderating easier, like clearing large quantites of messages in one go.
+              <br><em>Coming soon!</em>
+            </p>
+          </div>
+          <div class="col-md-4 features">
+            <i class="fas fa-toggle-on feature-img"></i>
+            <h4>Enable/Disable Features</h4>
+            <p>Don't want to use any of these features? No problem, simply disable anything you don't want.
+                <br><em>Coming soon!</em>
+            </p>
+          </div>
+          <div class="col-md-4 features">
+            <i class="fas fa-edit feature-img"></i>
+            <h4>Customisation</h4>
+            <p>Easily customise Oh Darn Bot's colours.
+                <br><em>Coming soon!</em>
+            </p>
+          </div>
+        </div>
+        <!-- <button type="button" class="btn btn-primary" name="button">Find Out More</button> -->
+      </div>
+    </section>
+    <!--- Setup Section ------>
+    <section id="setup">
+      <div class="container">
+        <h3 class="title text-center">GETTING STARTED</h3>
+        <div class="row">
+          <div class="col-md-12 setup">
+            <p class="setup-title">Invite</p>
+            <ul>
+              <li>Invite Oh Darn Bot to your Discord Server.</li>
+              <li>You'll need admin permissions in a server to invite the bot.</li>
+              <li>Oh Darn Bot will create it's own text channel for bot commands. Feel free to delete this channel and use your own.</li>
+            </ul>
+            <a href="https://discordapp.com/oauth2/authorize?client_id=493353332602044416&permissions=8&scope=bot" target="_blank">               
+              <button type="button"class="btn btn-primary discord-invite" name="button"><img src="images/Discord-Logo-White.png" height="40px" alt="Discord Logo">Invite to Discord</button>
+            </a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 setup">
+            <p class="setup-title">Update the bot's role</p>
+            <ul>
+              <li>Make sure the bot's role is at the top of your server's <a href="https://support.discordapp.com/hc/en-us/articles/214836687-Role-Management-101" target="_blank">role hierarchy</a>. This is important for the functionality of the bot.</li>
+              <li>At the very least, the bot needs to be above any roles that you wish for it to be able to have an effect on.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 setup">
+            <p class="setup-title">Configure</p>
+            <ul>
+              <li>Run through the initial configuration. To get started, just use the configuration command below.</li>
+            </ul>
+            <kbd>>config setup</kbd> <i class="far fa-clone setup-img" onmouseover="toggleToolTip('copyCommandToolTip');" onmouseout="toggleToolTip('copyCommandToolTip');" onclick="copyToClipboard('>config setup', 'copyCommandToolTip');"></i>
+            <span id="copyCommandToolTip" class="customTooltip">Copy to clipboard</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer ------>
+    <section id="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 footer-box">
+                <a href="mailto:bot@ohdarn.tv"><i class="fas fa-envelope"></i> Email</a>
+            </div>
+            <div class="col-md-6 footer-box">
+                <a href="https://twitter.com/OhDarnBot" target="_blank"><i class="fab fa-twitter"></i> Twitter</a>
+            </div>
+          <br>
+        </div>
+    </section>
+    <!--- Smooth Scroll js ---------->
+    <script type="text/javascript" src="js/smooth-scroll.js"></script>
+    <script type="text/javascript" src="js/custom.js"></script>
+    <script>
+	    var scroll = new SmoothScroll('a[href*="#"]');
+    </script>
+  </body>
+</html>
